@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: hsl(273, 4%, 51%);
+}
+
+main {
+    margin: 0 160px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    margin: 45px 0;
+}
+
+h2 {
+    font-family: 'DM Serif Display', sans-serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 90px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-family: 'DM Serif Display', sans-serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h4 {
+    color: #fff;
+    font-size: 80px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    margin: 60px 0;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sun-header {
+    position: relative;
+    margin-bottom: 300px;
+}
+
+.sun-nav-mobile {
+    display: none;
+}
+
+.sun-menu-container {
+    padding: 30px 160px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 11;
+}
+
+.sun-menu-logo {
+    height: 23px;
+    margin: auto 0;
+}
+
+.sun-menu-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.sun-menu-list li {
+    margin: auto 0;
+}
+
+.sun-menu-list li:nth-child(4) a {
+    margin-right: 0;
+    color:hsl(270, 9%, 17%);
+    border: hsl(270, 9%, 17%) 2px solid;
+    padding: 10px 20px;
+}
+
+.sun-menu-list li:nth-child(4) a:hover {
+    color: #fff;
+    background-color: hsl(270, 9%, 17%)
+}
+
+.sun-menu-list li a {
+    font-size: 16px;
+    font-size: 18px;
+    margin-right: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #88888A;
+    font-weight: bold;
+}
+
+.sun-menu-list li a:hover {
+    color:hsl(256, 26%, 20%);
+}
+
+/**/
+
+.ins-header-purple {
+    background-color: hsl(256, 26%, 20%);
+    padding: 120px 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.ins-header-img {
+    position: absolute;
+    right: 200px;
+    top: 234px;
+}
+
+.ins-header-text {
+    width: 37%;
+    position: relative;
+}
+
+.ins-header-text p {
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.ins-button {
+    margin-right: 0;
+    color:#fff;
+    border: #fff 2px solid;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ins-button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: #fff;
+}
+
+.ins-header-purple h1::before {
+    content: "";
+    width: 35%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.ins-header-right {
+    position: absolute;
+    z-index: 10;
+    top: -20px;
+    right: 0;
+}
+
+.ins-header-left {
+    position: absolute;
+    bottom: -330px;
+}
+
+.ins-different-section {
+    position: relative;
+    padding-top: 50px;
+}
+
+.ins-different-section h2::before {
+    content: "";
+    width: 14%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #bbb6d7
+}
+
+.ins-different-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ins-different-container article {
+    width: 30%;
+}
+
+.ins-find-section {
+    background-color: hsl(256, 26%, 20%);
+    margin-bottom: 150px;
+}
+
+.ins-find-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding: 0 150px;
+    position: relative;
+}
+
+.ins-find-section .ins-find-title {
+    width: 55%;
+}
+
+.ins-button-container {
+    margin: auto 0;
+    z-index: 10;
+}
+
+.ins-find-section img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+footer {
+    padding: 80px 160px;
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+}
+
+.ins-footer-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ins-prefooter {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.ins-prefooter-logo {
+    z-index: 10;
+    height: 23px;
+}
+
+.ins-prefooter-social img {
+    margin-right: 15px;
+}
+
+.ins-prefooter-social img:hover {
+    filter: brightness(0) saturate(100%) invert(12%) sepia(8%) saturate(1066%) hue-rotate(227deg) brightness(94%) contrast(89%);
+}
+
+.ins-prefooter-social img:nth-child(4) {
+    margin-right: 0px;
+}
+
+.ins-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    position: relative;
+}
+
+.ins-footer::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #EBEBEB
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer li:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+footer a {
+    text-transform: uppercase;
+    color: hsl(270, 9%, 17%);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 55px;
+    }
+    h4 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    .ins-header-img {
+        bottom: -120px;
+        width: 35%;
+        top:auto;
+    }
+    .sun-menu-list li a {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    .sun-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .ins-header-purple {
+        order: 2;
+    }
+    .ins-header-img {
+        width: 100%;
+        order: 1;
+        position: unset;
+    }
+    .sun-menu-list li a {
+        margin-right: 35px;
+    }
+    .ins-header-text {
+        width: 100%;
+        text-align: center;
+    }
+    .ins-header-purple h1::before {
+        height: 0px;
+    }
+}
