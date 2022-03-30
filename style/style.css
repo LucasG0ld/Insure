@@ -247,7 +247,7 @@ ul {
 }
 
 footer {
-    padding: 80px 160px;
+    padding: 80px 160px 40px 160px;
     background-color: hsl(0, 0%, 98%);
     position: relative;
 }
@@ -318,6 +318,17 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 0;
+}
+
+.attribution a {
+    letter-spacing: 0;
+    text-transform: inherit;
 }
 
 @media screen and (max-width: 1440px) {
